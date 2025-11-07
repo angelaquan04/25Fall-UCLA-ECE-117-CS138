@@ -48,7 +48,6 @@ void game() {
         printf("...\n");
 
         printf("Guess? ");
-        scanf("%lu", &guess);
         if (guess == code) {
             printf("Correct code! Package sent.\n");
             getchar();
